@@ -96,12 +96,12 @@ def getHerokuDetails(h_api_key, h_app_name):
             abc += f"<b>├ 🎃 APP USAGE:</b> {get_readable_time(AppQuotaUsed)}\n"
             abc += f"<b>├ 🗑️ OTHER APP:</b> {get_readable_time(OtherAppsUsage)}\n"
             abc += f'<b>│</b>\n'
-            abc += f'<b>╰─《 ☣️ @toxytech ☣️ 》</b>'
+            abc += f'<b>╰─《 ☣️ @ATBMOVIES ☣️ 》</b>'
         else:
             abc += f"<b>├ APP USAGE:</b> {get_readable_time(AppQuotaUsed)}\n"
             abc += f"<b>├ OTHER APP:</b> {get_readable_time(OtherAppsUsage)}\n"
             abc += f'<b>│</b>\n'
-            abc += f'<b>╰─《 @toxytech 》</b>'
+            abc += f'<b>╰─《 @ATBMOVIES 》</b>'
         return abc
     except Exception as g:
         LOGGER.error(g)
@@ -197,11 +197,11 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     if EMOJI_THEME is True:
-        buttons.buildbutton("😎 Master", "https://t.me/ToxyTech ")
-        buttons.buildbutton("🔥 Group", "https://t.me/DipeshMirror")
+        buttons.buildbutton("😎 Master", "https://t.me/POSSEDDON ")
+        buttons.buildbutton("🔥 Group", "https://t.me/ATBMOVIES")
     else:
-        buttons.buildbutton("Master", "https://t.me/ToxyTech ")
-        buttons.buildbutton("Group", "https://t.me/DipeshMirror")
+        buttons.buildbutton("Master", "https://t.me/POSSEDDON ")
+        buttons.buildbutton("Group", "https://t.me/ATBMOVIES")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
@@ -277,7 +277,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/Reflection-Mirror/Reflection-Mirror'>DipeshMirror</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b><a href='https://github.com/sulinoob'>Sulinoob</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
 Choose a help category:
 '''
 
