@@ -109,7 +109,7 @@ def getHerokuDetails(h_api_key, h_app_name):
 
 
 
-IMAGE_X = "https://graph.org/file/9c2c7250397f4ed2eed20.jpg"
+IMAGE_X = "https://telegra.ph/file/84d84ca46701f0943de08.jpg"
 
 now=datetime.now(pytz.timezone(f'{TIMEZONE}'))
 
