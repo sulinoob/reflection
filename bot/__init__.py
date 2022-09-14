@@ -614,21 +614,21 @@ except KeyError:
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/DipeshMirror'
+        AUTHOR_URL = 'https://t.me/ATBMOVIES'
 except KeyError:
-    AUTHOR_URL = 'https://t.me/DipeshMirror'
+    AUTHOR_URL = 'https://t.me/ATBMOVIES'
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by DipeshMirror  Mirror Bot'
+        GD_INFO = 'Uploaded by ATB Bot'
 except KeyError:
-    GD_INFO = 'Uploaded by DipeshMirror Mirror Bot'
+    GD_INFO = 'Uploaded by ATB Bot'
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'DipeshMirror-Mirror-Search'
+        TITLE_NAME = 'ATB-Search'
 except KeyError:
-    TITLE_NAME = 'DipeshMirror-Mirror-Search'
+    TITLE_NAME = 'ATB-SEARCH'
 try:
     FINISHED_PROGRESS_STR = getConfig('FINISHED_PROGRESS_STR') 
     UN_FINISHED_PROGRESS_STR = getConfig('UN_FINISHED_PROGRESS_STR')
@@ -647,7 +647,7 @@ try:
         raise KeyError
 except KeyError:
     log_info("CHANNEL_USERNAME not provided! Using default @DipeshMirror")
-    CHANNEL_USERNAME = "DipeshMirror"
+    CHANNEL_USERNAME = "ATBMOVIES"
 try:
     FSUB_CHANNEL_ID = getConfig("FSUB_CHANNEL_ID")
     if len(FSUB_CHANNEL_ID) == 0:
@@ -655,7 +655,7 @@ try:
     FSUB_CHANNEL_ID = int(FSUB_CHANNEL_ID)
 except KeyError:
     log_info("CHANNEL_ID not provided! Using default id of @DipeshMirror")
-    FSUB_CHANNEL_ID = -1001512307861
+    FSUB_CHANNEL_ID = -1001754572177
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
@@ -747,7 +747,7 @@ except:
 try:
     IMAGE_URL = getConfig('IMAGE_URL')
 except KeyError:
-    IMAGE_URL = 'http://telegra.ph/REFLECTION-07-18'
+    IMAGE_URL = 'https://telegra.ph/file/84d84ca46701f0943de08.jpg'
 try:
     EMOJI_THEME = getConfig('EMOJI_THEME')
     EMOJI_THEME = EMOJI_THEME.lower() == 'true'
